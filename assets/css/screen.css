@@ -23,6 +23,7 @@ production stylesheet in assets/built/screen.css
 9.  Error Template
 10. Subscribe Overlay
 11. Site Footer
+12. Epic
 
 */
 
@@ -95,7 +96,7 @@ body {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
-        margin-top: -70px;
+        margin-top: -24px;
         padding-top: 0;
     }
     .home-template .site-nav {
@@ -167,6 +168,7 @@ body {
     font-weight: bold;
     font-size: 16.1rem;
     font-weight: 700;
+    text-rendering: optimizeLegibility;
 }
 
 .site-logo {
@@ -2274,4 +2276,13 @@ Usage (In Ghost editor):
     .site-footer-nav a:first-child {
         margin-left: 0;
     }
+}
+
+
+/* 12. Epic
+/* ---------------------------------------------------------- */
+
+*.epic {
+    font-family: fantasy, arial !IMPORTANT;
+    letter-spacing: 2px;
 }
